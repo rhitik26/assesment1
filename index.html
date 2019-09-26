@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=".\css\style.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="jumbotron d1">
+        <h1 class="display-4">Comic Store</h1>
+        <p class="lead">This is a simple Comic Book Store where you can simply buy the comics and novels.
+        </p>
+        <hr class="my-4">
+        <p class="p1">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 12rem;height: 600px;">
+                    <img src=".\images\1984.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">1984</h5>
+                        <p class="card-text">Among the seminal texts of the 20th century, Nineteen Eighty-Four is a rare
+                            work that grows more haunting as its futuristic purgatory becomes more real.
+
+                        </p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b1" id="btn">
+                            See Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 12rem;height: 600px">
+                    <img src=".\images\alchemist.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ALCHEMIST</h5>
+                        <p class="card-text">Paulo Coelho's enchanting novel has inspired a devoted following around the
+                            world. This story and soul-stirring wisdom.
+
+                        </p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b2" id="btn">
+                            See Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" style="width: 12rem;height: 600px;">
+                    <img src=".\images\blade.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Do Androids Dream of Electric Sheep?</h5>
+                        <p class="card-text">It was January 2021, and Rick Deckard had a license to kill.
+                                
+
+                        </p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b8" id="btn">
+                            See Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                    <div class="card" style="width: 12rem;height: 600px;">
+                        <img src=".\images\Chess.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">BLADE</h5>
+                            <p class="card-text">Chess Story, also known as The Royal Game, is the Austrian master Stefan Zweig's final achievement.
+    
+                            </p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b3" id="btn">
+                                See Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-3">
+                    <div class="card" style="width: 12rem;height: 600px;">
+                            <img src=".\images\gatsby.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Great Gatsby</h5>
+                                <p class="card-text">The Great Gatsby, F. Scott Fitzgerald's third book, stands as the supreme achievement of his career.
+                                </p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b4">
+                                    See Details
+                                </button>
+                            </div>
+                        </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-3">
+                    <div class="card" style="width: 12rem;height: 600px;">
+                            <img src=".\images\hobbit.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Hobbit  There and Back Again</h5>
+                                <p class="card-text">n a hole in the ground there lived a hobbit. Not a nasty, dirty..</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b5">
+                                    See Details
+                                </button>
+                            </div>
+                        </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-3">
+                    <div class="card" style="width: 12rem;height: 600px;">
+                            <img src=".\images\meta.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Metamorphosis</h5>
+                                <p class="card-text">"As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed. </p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b6">
+                                    See Details
+                                </button>
+                            </div>
+                        </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-3">
+                    <div class="card" style="width: 12rem;height: 600px;">
+                            <img src=".\images\orient.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Murder on the Orient Express</h5>
+                                <p class="card-text">Le train est aussi dangereux que le paquebot » affirme Hercule Poirot…
+                                         </p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b7">
+                                    See Details
+                                </button>
+                            </div>
+                        </div>
+            </div>
+
+        </div>
+        <div class="row">
+                <div class="col-md-3 col-sm-3 col-3">
+                        <div class="card" style="width: 12rem;height: 600px;">
+                                <img src=".\images\oldman.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">The Old Man and the Sea</h5>
+                                    <p class="card-text">The last novel Ernest Hemingway saw published, The Old Man and the Sea has proved itself 
+                                             </p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b9">
+                                        See Details
+                                    </button>
+                                </div>
+                            </div>
+                </div> 
+                <div class="col-md-3 col-sm-3 col-3">
+                        <div class="card" style="width: 12rem;height: 600px;">
+                                <img src=".\images\price.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">The Little Prince</h5>
+                                    <p class="card-text">Moral allegory and spiritual autobiography, The Little Prince is the most translated book in the French language. </p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b10">
+                                        See Details
+                                    </button>
+                                </div>
+                            </div>
+                </div> 
+                <div class="col-md-3 col-sm-3 col-3">
+                        <div class="card" style="width: 12rem;height: 600px;">
+                                <img src=".\images\sherlock.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">A Study in Scarlet</h5>
+                                    <p class="card-text">'There's a scarlet thread of murder running through the colourless skein of life,  </p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b11">
+                                        See Details
+                                    </button>
+                                </div>
+                            </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-3">
+                        <div class="card" style="width: 12rem;height: 600px;">
+                                <img src=".\images\time.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">The Time Machine</h5>
+                                    <p class="card-text">“I’ve had a most amazing time....”
+
+                                            So begins the Time Traveller’s astonishing firsthand account  </p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b12">
+                                        See Details
+                                    </button>
+                                </div>
+                            </div>
+                </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <div class="modal fade" id="b1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"  id="name" value="1984">1984</h1> by <span
+                            style="text-decoration: underline" id="author" value="George Orwell">George Orwell</span></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Among the seminal texts of the 20th century, Nineteen Eighty-Four is a rare work that grows more
+                    haunting as its futuristic purgatory becomes more real. Published in 1949, the book offers political
+                    satirist George Orwell's nightmarish vision of a totalitarian, bureaucratic world and one poor
+                    stiff's attempt to find individuality. The brilliance of the novel is Orwell's prescience of modern
+                    life—the ubiquity of television, the distortion of the language—and his ability to construct such a
+                    thorough version of hell. Required reading for students since it was published, it ranks among the
+                    most terrifying novels ever written.
+                    <br />
+                    <h2 id="price" value="180">Price:180</h2></h2>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="cart">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="b2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ALCHEMIST by <span
+                            style="text-decoration: underline">Paulo Coelho</span></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Paulo Coelho's enchanting novel has inspired a devoted following around the world. This story,
+                    dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd boy
+                    named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure
+                    buried near the Pyramids. Along the way he meets a Gypsy woman, a man who calls himself king, and an
+                    alchemist, all of whom point Santiago in the direction of his quest. No one knows what the treasure
+                    is, or if Santiago will be able to surmount .<br />
+                    <h2>Price:150</h2>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="cart">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="b3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Chess Story by <span
+                                style="text-decoration: underline">Stefan Zweig</span></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                            Chess Story, also known as The Royal Game, is the Austrian master Stefan Zweig's final achievement, completed in Brazilian exile and sent off to his American publisher only a matter of days before his suicide in 1942. It is the only story in which Zweig looks at Nazism, and he does so with characteristic emphasis on the psychological.<br />
+                        <h2>Price:300</h2>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="cart">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="b4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Great Gatsby by <span
+                                    style="text-decoration: underline">F. Scott Fitzgerald</span></h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                                The Great Gatsby, F. Scott Fitzgerald's third book, stands as the supreme achievement of his career. This exemplary novel of the Jazz Age has been acclaimed by generations of readers. The story is of the fabulously wealthy Jay Gatsby and his new love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted "gin was the national drink and sex the national obsession," it is an exquisitely crafted tale of America in the 1920s.<h2>Price:200</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="cart">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="b5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">The Hobbit  There and Back Again by <span
+                                        style="text-decoration: underline">J.R.R. Tolkien</span></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                    n a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.<h2>Price:300</h2>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" id="cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="b6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">The Metamorphosis by <span
+                                            style="text-decoration: underline">Franz Kafka</span></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                        "As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect. He was laying on his hard, as it were armor-plated, back and when he lifted his head a little he could see his domelike brown belly divided into stiff arched segments on top of which the bed quilt could hardly keep in position and was about to slide off completely. His numerous legs, which were pitifully thin compared to the rest of his bulk, waved helplessly before his eyes." <h2>Price:350</h2>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" id="cart">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="b7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">The Metamorphosis by <span
+                                                style="text-decoration: underline">Franz Kafka</span></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                            "As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect. He was laying on his hard, as it were armor-plated, back and when he lifted his head a little he could see his domelike brown belly divided into stiff arched segments on top of which the bed quilt could hardly keep in position and was about to slide off completely. His numerous legs, which were pitifully thin compared to the rest of his bulk, waved helplessly before his eyes." <h2>Price:350</h2>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="b8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Do Androids Dream of Electric Sheep? by <span
+                                                    style="text-decoration: underline">Philip K. Dick</span></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                                It was January 2021, and Rick Deckard had a license to kill.
+Somewhere among the hordes of humans out there, lurked several rogue androids. Deckard's assignment--find them and then..."retire" them. Trouble was, the androids all looked exactly like humans, and they didn't want to be found!
+ <h2>Price:450</h2>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary" id="cart">Add To Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="b9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">The Old Man and the Sea by <span
+                                                        style="text-decoration: underline">Ernest Hemingway</span></h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                    The last novel Ernest Hemingway saw published, The Old Man and the Sea has proved itself to be one of the enduring works of American fiction. It is the story of an old Cuban fisherman and his supreme ordeal: a relentless, agonizing battle with a giant marlin far out in the Gulf Stream. Using the simple, powerful language of a fable, Hemingway takes the timeless themes of courage in the face of defeat and personal triumph won from loss and transforms them into a magnificent twentieth-century classic.<h2>Price:200</h2>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary" id="cart">Add To Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="b10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">The Little Prince by <span
+                                                            style="text-decoration: underline">Antoine de Saint-Exupéry,</span></h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                        Moral allegory and spiritual autobiography, The Little Prince is the most translated book in the French language. With a timeless charm it tells the story of a little boy who leaves the safety of his own tiny planet to travel the universe, learning the vagaries of adult behaviour through a series of extraordinary encounters. His personal odyssey culminates in a voyage to Earth and further adventures<h2>Price:220</h2>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary" id="cart">Add To Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="b11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">The Study In Scarlet by <span
+                                                                style="text-decoration: underline">Arthur Conan Doyle</span></h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                            'There's a scarlet thread of murder running through the colourless skein of life, and our duty is to unravel it, and isolate it, and expose every inch of it.'
+                                                            From the moment Dr John Watson takes lodgings in Baker Street with the consulting detective Sherlock Holmes, he becomes intimately acquainted with the bloody violence and frightening ingenuity of the criminal mind.
+                                                            <h2>Price:350</h2>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary" id="cart">Add To Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="b12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel">The time Travel by <span
+                                                                    style="text-decoration: underline">H.G. Wells</span></h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                                “I’ve had a most amazing time....”
+
+So begins the Time Traveller’s astonishing firsthand account of his journey 800,000 years beyond his own era—and the story that launched H.G. Wells’s successful career and earned him his reputation as the father of science fiction. With a speculative leap that still fires the imagination, Wells sends his brave explorer to face a future burdened with our greatest hopes...and our darkest fears. A pull of the Time Machine’s lever propels him to the age of a slowly dying Earth.  There he discovers two bizarre races—the ethereal Eloi and the subterranean Morlocks—who not only symbolize the duality of human nature, but offer a terrifying portrait of the men of tomorrow as well.  Published in 1895, this masterpiece of invention captivated readers on the threshold of a new century. Thanks to Wells’s expert storytelling and provocative insight, The Time Machinewill continue to enthrall readers for generations to come.
+<h2>Price:450</h2>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary" id="cart">Add To Cart</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+</body>
+
+</html>
